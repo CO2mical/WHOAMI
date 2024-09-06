@@ -79,28 +79,28 @@ background-color: #741919;
     margin-right: 2%;
     color: #e7e5e5;
 }
-#sheeps {
+.sheeps {
     width: 300px;
     height: auto;
     position: absolute; /* or use 'fixed' depending on your needs */
     right: 0; /* Aligns the image to the right */
     margin-right: 2%;
 }
-#profile-p-1{
+.profile-p-1{
     padding-right: 320px;
 }
 .bg {
-    background-color: #1d1d1d;
+    background-color: #212020;
 }
 li, p, h1, h2, a {
   font-family: verdana, arial, helvetica, sans-serif;
 
 }
-#mt-quote {
+.mt-quote {
   font-size: 15px;
   text-align: right;
 }
-#mt-quote-credit {
+.mt-quote-credit {
   font-size: 13px;
   text-align: right;
 }
