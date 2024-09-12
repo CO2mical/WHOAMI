@@ -33,7 +33,7 @@ body {
 }
 
 .nav-open {
-background-color: #741919;
+  background-color: #741919;
 }
 
 .dropdown {
@@ -75,26 +75,29 @@ background-color: #741919;
   margin: 10px; /* Optional: Add some spacing from the edges */
 }
 .content {
-    margin-left: 2%;
-    margin-right: 2%;
-    color: #e7e5e5;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #e7e5e5;
 }
 .sheeps {
-    width: 300px;
-    height: auto;
-    position: absolute; /* or use 'fixed' depending on your needs */
-    right: 0; /* Aligns the image to the right */
-    margin-right: 2%;
+  width: 300px;
+  height: auto;
+  position: absolute; /* or use 'fixed' depending on your needs */
+  right: 0; /* Aligns the image to the right */
+  margin-right: 2%;
 }
-.profile-p-1{
-    padding-right: 320px;
+.profile-p-1 {
+  padding-right: 320px;
 }
 .bg {
-    background-color: #212020;
+  background-color: #212020;
 }
-li, p, h1, h2, a {
+li,
+p,
+h1,
+h2,
+a {
   font-family: verdana, arial, helvetica, sans-serif;
-
 }
 .mt-quote {
   font-size: 15px;
@@ -115,7 +118,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header, footer {
+header,
+footer {
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -146,22 +150,55 @@ header, footer {
 }
 
 /* Grid system */
-.col-1 { flex: 0 0 8.33%; }
-.col-2 { flex: 0 0 16.67%; }
-.col-3 { flex: 0 0 25%; }
-.col-4 { flex: 0 0 33.33%; }
-.col-5 { flex: 0 0 41.67%; }
-.col-6 { flex: 0 0 50%; }
-.col-7 { flex: 0 0 58.33%; }
-.col-8 { flex: 0 0 66.67%; }
-.col-9 { flex: 0 0 75%; }
-.col-10 { flex: 0 0 83.33%; }
-.col-11 { flex: 0 0 91.67%; }
-.col-12 { flex: 0 0 100%; }
+.col-1 {
+  flex: 0 0 8.33%;
+}
+.col-2 {
+  flex: 0 0 16.67%;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-4 {
+  flex: 0 0 33.33%;
+}
+.col-5 {
+  flex: 0 0 41.67%;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
+.col-7 {
+  flex: 0 0 58.33%;
+}
+.col-8 {
+  flex: 0 0 66.67%;
+}
+.col-9 {
+  flex: 0 0 75%;
+}
+.col-10 {
+  flex: 0 0 83.33%;
+}
+.col-11 {
+  flex: 0 0 91.67%;
+}
+.col-12 {
+  flex: 0 0 100%;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .col {
-      flex: 0 0 100%;
+    flex: 0 0 100%;
   }
+}
+
+.linkie {
+  color: #ca1a1a;
+}
+
+#code-sc {
+  width: 300px;
+  height: auto;
 }
