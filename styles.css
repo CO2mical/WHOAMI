@@ -148,6 +148,9 @@ footer {
   text-align: center;
   border-radius: 4px;
 }
+.leftish {
+  text-align: left;
+}
 
 /* Grid system */
 .col-1 {
