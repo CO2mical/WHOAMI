@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class="Dashboard">
+    <!--Navigation-->
+    <nav>
+        <ul class="navigatie">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">Course and Examination
+                    Regulations</a>
+                <a
+                    href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">The
+                    Implementation Regulations </a>
+                <a href="https://learn.hz.nl/my/">Learn environment</a>
+                <a href="#">Study progress</a>
+                <a href="https://github.com/HZ-HBO-ICT"> Github page</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer;color:  #6495ed;" onclick="openNav()">&#9776; </span>
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft = "0";
+                }
+            </script>
+            <li class="navigatie"><a class="navigatie" href="/index.html">Home</a></li>
+            <li class="navigatie"><a class="navigatie" href="/profile.html">My Profile</a></li>
+            <li class="navigatie"><a class="navigatie" href="/FAQ.html">FAQ</a></li>
+            <li class="navigatie"><a class="navigatie" href="/Blog.html">Blog</a></li>
+            <li class="navigatie"><a class="navigatie" href="/dashboard.html" id="active">Dashboard</a></li>
+        </ul>
+        <a href="https://hz.nl/"><img src="images/hz-university-of-applied-sciences-logo.png" class="hz-logo"
+                alt="hz logo"></a>
+    </nav>
+    <!--Table-->
+    <table>
+        <tr class="table">
+            <th> Quarter</th>
+            <th>Course</th>
+            <th>Exams</th>
+            <th>Grade</th>
+            <th>EC</th>
+
+        </tr>
+        <tr>
+            <th rowspan="3">1</th>
+            <td>PCO</td>
+            <td>Assessment Website</td>
+            <td><input id="Mygrade" type="text"></input></td>
+            <td>2,5</td>
+
+        </tr>
+        <tr>
+
+            <td>CSB</td>
+            <td> Written Exam</td>
+            <td><input id="Mygrade" type="text"></input></td>
+
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>PBA</td>
+            <td>Case Study Exam</td>
+            <td><input id="Mygrade" type="text"></input></td>
+
+            <td>5</td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+            <th rowspan="2">2</th>
+            <td>PPD-E</td>
+            <td>PPD-E Exam</td>
+            <td><input class="Mygrade" type="text"></input></td>
+            <td>12,5</td>
+        </tr>
+        <tr>
+            <td>OOP</td>
+            <td>OOP Exam</td>
+            <td><input class="Mygrade" type="text"></input></td>
+            <td>10</td>
+        </tr>
+        <th rowspan="2">3</th>
+        <td>Framework-project 1</td>
+        <td>Presentation (with group)</td>
+        <td><input class="Mygrade" type="text"></input></td>
+        <td>10</td>
+        </tr>
+        <tr>
+            <td>Business IT consultancy basics</td>
+            <td>Presentation (with group) </td>
+            <td><input class="Mygrade" type="text"></input></td>
+            <td> x</td>
+        </tr>
+        <th rowspan="2">4</th>
+        <td>Framework-project 2</td>
+        <td>Portfolio</td>
+        <td><input class="Mygrade" type="text"></input></td>
+        <td>10</td>
+        </tr>
+        <tr>
+            <td>Business IT consultancy basics </td>
+            <td>Portfolio</td>
+            <td><input class="Mygrade" type="text"></input></td>
+            <td>2,5</td>
+
+        </tr>
+    </table>
+    <b>My EC progress: *NBSA boundary > 45*</b>
+    <div class="wrapper">
+        <div class="progress-bar">
+            <span class="progress-bar-fill" style="width: 0;"></span>
+        </div>
+        <div class="progress-text">60 ECS</div>
+    </div>
+
+</body>
+<!--Foot text-->
+<div class="footer">
+    <marquee direction="right" behavior="alternate">
+
+        © Welcome! You can contact me at: <a href="mailto:vooi0006@hz.nl">vooi0006@hz.nl</a> if you have any questions
+        about my website.
+    </marquee>
+</div>
+
+</html>
